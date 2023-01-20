@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "usuario": "Usuario",
+    "tweet": "Mi primer tweet",
+    "fecha": "20-02-2022"
+  },
+  {
+    "id": 2,
+    "usuario": "Usuario",
+    "tweet": "Mi primer tweet",
+    "fecha": "20-02-2022"
+  }
+]

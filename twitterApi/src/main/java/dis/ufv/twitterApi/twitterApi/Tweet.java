@@ -3,50 +3,50 @@ package dis.ufv.twitterApi.twitterApi;
 import java.util.Date;
 
 public class Tweet {
-    private int Id;
-    private String Usuario;
-    private String Tweet;
-    private Date Fecha;
+    public int id;
+    public String usuario;
+    public String tweet;
+    public Date fecha;
 
     public Tweet(int id, String usuario, String tweet, Date fecha) {
-        Id = id;
-        Usuario = usuario;
-        Tweet = tweet;
-        Fecha = fecha;
+        this.id = id;
+        this.usuario = usuario;
+        this.tweet = tweet;
+        this.fecha = fecha;
     }
 
     public Tweet() {
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getUsuario() {
-        return Usuario;
+        return usuario;
     }
 
     public void setUsuario(String usuario) {
-        Usuario = usuario;
+        this.usuario = usuario;
     }
 
     public String getTweet() {
-        return Tweet;
+        return tweet;
     }
 
     public void setTweet(String tweet) {
-        Tweet = tweet;
+        this.tweet = tweet;
     }
 
     public Date getFecha() {
-        return Fecha;
+        return fecha;
     }
 
     public void setFecha(Date fecha) {
-        Fecha = fecha;
+        this.fecha = fecha;
     }
 }
